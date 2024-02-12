@@ -39,7 +39,7 @@ The weather information includes temperature, feels-like temperature, humidity, 
 Also, you can check the history of your inputted cities.
 
 If you want to redirect to the Admin panel, then you need to login as:
-username: meyrambek
+username: meyrambek, and
 password: meyrambek
 
   ## Detailed information about used API's
