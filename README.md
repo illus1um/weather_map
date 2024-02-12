@@ -1,20 +1,15 @@
 # Weather App
 
-This web application allows users to get real-time weather information and timezone details for a selected city. It utilizes the Mapbox API for geocoding and mapping and the OpenWeather API for weather data. Additionally, the TimezoneDB API is integrated to provide information about the timezone of the selected location.
+This web application allows users to get real-time weather information and timezone details for a selected city. It utilizes the Mapbox API for geocoding and mapping and the OpenWeather API for weather data. Additionally, the TimezoneDB API is integrated to provide information about the timezone of the selected location. 
 
-## Table of Contents
-
-- [Installation](#installation)
-- [Usage](#usage)
-- [Detailed information about used API's](#api-keys)
-- [Design Decisions](#design-decisions)
 
 ## Installation
+You can check this site: weathermap(https://weathermap-3dqz.onrender.com/) or
 
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/illus1um/WeatherMap.git
+   git clone https://github.com/illus1um/weather_map.git
    
 2. Install dependencies:
 
@@ -31,6 +26,8 @@ This web application allows users to get real-time weather information and timez
     http://localhost:3000.
 
   ## Usage
+Register and login to the site.
+
 Enter the name of the city in the input field at the top-right.
 
 Submit the form to view weather information for the selected city.
@@ -38,6 +35,12 @@ Submit the form to view weather information for the selected city.
 The map will zoom in to the selected city, and a popup will display detailed weather information.
 
 The weather information includes temperature, feels-like temperature, humidity, pressure, wind speed, country code and timezone details.
+
+Also, you can check the history of your inputted cities.
+
+If you want to redirect to the Admin panel, then you need to login as:
+username: meyrambek
+password: meyrambek
 
   ## Detailed information about used API's
 1. Mapbox API
@@ -56,11 +59,9 @@ Purpose: TimezoneDB API is used to retrieve information about the timezone of a 
 Documentation: [TimezoneDB API Documentation](https://timezonedb.com/api)
 
   ## Design Decisions
-Frontend Framework: The project uses Mapbox GL JS for mapping and vanilla JavaScript for the frontend.
+Frontend Framework: The project uses Mapbox GL JS for mapping, vanilla JavaScript for the frontend and NodeJS for the backend
 
-Styling: The dark theme is chosen to complement the map. Styles are defined in the public/styles.css file.
+Structure: The project follows the MVC for organizing the code
 
-Structure: The project follows a modular structure with separate services for Mapbox, OpenWeather, and TimezoneDB.
+Database: The project uses mongoDB for storing and retrieving data.
 
-# weather_map
-# weather_map
