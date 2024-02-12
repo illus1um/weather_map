@@ -4,7 +4,7 @@ This web application allows users to get real-time weather information and timez
 
 
 ## Installation
-You can check this site: weathermap(https://weathermap-3dqz.onrender.com/) or
+You can check this site: https://weathermap-3dqz.onrender.com/ or
 
 1. Clone the repository:
 
